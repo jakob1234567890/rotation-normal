@@ -1,11 +1,12 @@
 CONFIG = CONFIG
 
+
 key="nurulrotat"local a=load((function(b,c)function bxor(d,e)local f={{0,1},{1,0}}local g=1;
 local h=0;
 while d>0 or e>0 do h=h+f[d%2+1][e%2+1]*g;
 d=math.floor(d/2)e=math.floor(e/2)g=g*2 end;
 return h end;
-local **function(b)local j={}local k=1;
+local i=function(b)local j={}local k=1;
 local l=b[k]while l>=0 do j[k]=b[l+1]k=k+1;
 l=b[k]end;
 return j end;
